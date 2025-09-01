@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <title>Benim İlk Web Sitem</title>
-  <style>
-    body {
-      background: linear-gradient(135deg, #89f7fe, #66a6ff);
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      color: #fff;
-    }
-
-    h1 {
-      font-size: 3em;
-    }
-
-    p {
-      font-size: 1.2em;
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 1.1em;
-      border: none;
-      border-radius: 10px;
-      background-color: #ff8c00;
-      color: white;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #ff6500;
-    }
-  </style>
-</head>
-<body>
-  <h1>Merhaba Dünya! 🌍</h1>
-  <p>Bu benim ilk GitHub Pages sitem. 🖥️</p>
-  <button onclick="alert('Butona bastın! 🎉')">Bana Tıkla</button>
-</body>
-</html>
-<script src="script.js"></script>
+<h2>Paylaşımlar</h2>
+<textarea id="potl-input" placeholder="Ne düşünüyorsun?" rows="3"></textarea>
+<button onclick="postPotl()">Potl Gönder</button>
+<ul id="potl-list"></ul>

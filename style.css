@@ -1,35 +1,45 @@
-/* Sayfanın genel görünümü */
 body {
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);
   font-family: Arial, sans-serif;
   text-align: center;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
   padding: 50px;
   color: #fff;
 }
 
-/* Başlık */
 h1 {
+  color: #fff;
   font-size: 3em;
+  margin-bottom: 20px;
 }
 
-/* Paragraf */
-p {
-  font-size: 1.2em;
+input, textarea {
+  padding: 10px;
+  width: 250px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-/* Buton stili */
 button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1.1em;
+  padding: 8px 16px;
   border: none;
-  border-radius: 10px;
-  background-color: #ff8c00;
+  border-radius: 5px;
+  background-color: #7b3fbf;
   color: white;
   cursor: pointer;
 }
 
-/* Buton üzerine gelince renk değişimi */
 button:hover {
-  background-color: #ff6500;
+  background-color: #5a2e8c;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  width: 300px;
+  margin: 10px auto;
 }
