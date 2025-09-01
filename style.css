@@ -1,0 +1,35 @@
+/* Sayfanın genel görünümü */
+body {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+/* Başlık */
+h1 {
+  font-size: 3em;
+}
+
+/* Paragraf */
+p {
+  font-size: 1.2em;
+}
+
+/* Buton stili */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff8c00;
+  color: white;
+  cursor: pointer;
+}
+
+/* Buton üzerine gelince renk değişimi */
+button:hover {
+  background-color: #ff6500;
+}
